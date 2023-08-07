@@ -1,0 +1,113 @@
+body {
+  background-color: #F6F4EB;
+  color: #91C8E4;
+  font-family: 'Space Mono', monospace;
+}
+
+h1, h2, h3 {
+  color: #4682A9;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+p {
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  text-decoration: none;
+  font-family: 'Edu SA Beginner', cursive;
+  font-weight: 600;
+}
+
+.intro:hover {
+  background-color: rgb(221, 90, 90);
+}
+
+@media (min-width: 720px) {
+  /* For a screen > 720px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.text-align {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-size {
+  height: 100px;
+  width: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+.list-inline i:hover {
+  color: #4682A9;
+}
+
+.btn-blue {
+  background-color: #749BC2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#intro-div {
+  margin: 25px 0;
+}
